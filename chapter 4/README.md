@@ -1,0 +1,7 @@
+# Challenge: If DbC is so great, why isn't it used more often?
+
+- **Lack of language support**: DbC requires built-in language support for specifying preconditions, postconditions, and invariants. While some languages like Eiffel and D provide native support for DbC, many popular languages like Java, C++, and Python do not have this feature built-in, making it more difficult to adopt DbC.
+- **Runtime overhead**: Checking preconditions, postconditions, and invariants at runtime can introduce performance overhead, especially in performance-critical systems. This overhead can be a deterrent for adopting DbC in certain domains.
+- **Testing culture**: Many development teams rely heavily on unit testing and other testing practices, which they perceive as sufficient for ensuring code correctness. As a result, they may not see the added value of DbC over their existing testing practices.
+- **Lack of tool support**: While some tools and libraries exist for DbC in various languages, the tooling support is generally not as mature or integrated as it is for other practices like unit testing or static analysis.
+- **Complexity**: Specifying preconditions, postconditions, and invariants can be complex, especially for non-trivial code bases. This complexity can act as a barrier to adoption, especially for teams without prior experience with formal methods.
